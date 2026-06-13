@@ -1,4 +1,4 @@
-# Cloud Security and IAM Portfolio
+# Cloud Engineering Portfolio
 
 <p align="center">
   <img src="assets/portfolio/header-badges.svg" alt="Portfolio focus areas" width="1020">
@@ -7,7 +7,7 @@
 ## Portfolio Overview
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
-This portfolio demonstrates professional experience and practical delivery across cloud engineering, identity and access management, access governance, secure data access, monitoring, automation, and cloud security operations.
+This portfolio demonstrates practical delivery across Azure and AWS cloud administration, identity governance, cloud security, secure data access, analytics platform management, monitoring, automation, and platform operations.
 
 ---
 
