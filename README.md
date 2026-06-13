@@ -9,14 +9,15 @@
 
 This portfolio demonstrates professional experience and practical delivery across cloud engineering, identity and access management, access governance, secure data access, monitoring, automation, and cloud security operations.
 
-
-
-
 ---
+
 ## 🧭 Navigation
 
 ☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)**  
 Azure governance · Entra ID · RBAC · Monitoring · KQL · Terraform · Bicep
+
+🟧 **[AWS Cloud Engineering](Projects/aws-cloud-engineering)**  
+Serverless architecture · IAM · Cognito · API Gateway · Lambda · DynamoDB · S3 · CloudFront · CloudWatch · CDK
 
 🏛️ **[Enterprise Security Architecture](Projects/enterprise-security-architecture)**  
 Identity architecture · Access control design · Conditional Access · Least privilege · Governance alignment
