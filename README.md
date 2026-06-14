@@ -20,11 +20,8 @@ Azure governance · Entra ID · RBAC · Monitoring · KQL · Terraform · Bicep
 🟧 **[AWS Cloud Engineering](Projects/aws-cloud-engineering)**  
 Serverless architecture · IAM · Cognito · API Gateway · Lambda · DynamoDB · S3 · CloudFront · CloudWatch · CDK
 
-🏛️ **[Enterprise Security Architecture](Projects/enterprise-security-architecture)**  
-Identity architecture · Access control design · Conditional Access · Least privilege · Governance alignment
-
-📊 **[Business Intelligence Platform Management](https://github.com/jacobadedoyin/Cloud-Security-and-IAM-Portfolio/tree/main/Projects/business-intelligence-platform-management)**  
-Qlik/Tableau administration · Access security · JML lifecycle controls · Licence and cost governance
+🏛️ **[Enterprise Architecture Solutions](Projects/enterprise-architecture-solutions)**  
+Financial Data Access · MFA Architecture · Secure File Transfer · Vulnerability Management · BI Platform Governance
 
 ---
 
