@@ -4,8 +4,6 @@
   <img src="assets/portfolio/header-badges.svg" alt="Portfolio focus areas" width="1020">
 </p>
 
----
-
 ## Portfolio Overview
 
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
@@ -30,30 +28,16 @@ Qlik/Tableau administration · Access security · JML lifecycle controls · Lice
 
 ---
 
-## Projects Overview
-
-<p align="center">
-  <img src="assets/portfolio/projects-overview.png" alt="Cloud Security and IAM portfolio projects overview" width="900">
-</p>
-
----
-
 ## Technical Skills Demonstrated
 
-<p align="center">
-  <img src="assets/portfolio/technical-skills.png" alt="Technical Skills overview" width="900">
-</p>
+![Technical Skills overview](assets/portfolio/technical-skills.png)
 
 ---
 
 ## Evidence Approach
 
-<p align="center">
-  <img src="assets/portfolio/evidence-approach.png" alt="Public-safe evidence approach for the portfolio" width="900">
-</p>
+![Cloud Security and IAM portfolio projects overview](assets/portfolio/projects-overview.png)
 
 ---
 
-<p align="center">
-  <img src="assets/portfolio/maintain-footnote.png" alt="Repository maintenance banner for Jacob Adedoyin" width="900">
-</p>
+![Repository maintenance banner for Jacob Adedoyin](assets/portfolio/maintain-footnote.png)
