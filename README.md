@@ -4,7 +4,10 @@
   <img src="assets/portfolio/header-badges.svg" alt="Portfolio focus areas" width="1020">
 </p>
 
+---
+
 ## Portfolio Overview
+
 > **Public-safe evidence only:** all evidence is sanitised and excludes confidential data, client information, tenant details, internal URLs, secrets, production records, real user data, and sensitive operational details.
 
 This portfolio demonstrates practical delivery across Azure and AWS cloud administration, identity governance, cloud security, secure data access, analytics platform management, monitoring, automation, and platform operations.
@@ -24,6 +27,14 @@ Identity architecture · Access control design · Conditional Access · Least pr
 
 📊 **[Business Intelligence Platform Management](https://github.com/jacobadedoyin/Cloud-Security-and-IAM-Portfolio/tree/main/Projects/business-intelligence-platform-management)**  
 Qlik/Tableau administration · Access security · JML lifecycle controls · Licence and cost governance
+
+---
+
+## Projects Overview
+
+<p align="center">
+  <img src="assets/portfolio/projects-overview.png" alt="Cloud Security and IAM portfolio projects overview" width="900">
+</p>
 
 ---
 
