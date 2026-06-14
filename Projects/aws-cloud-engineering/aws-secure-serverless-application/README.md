@@ -1,64 +1,59 @@
-# AWS Secure Serverless Notes API
+# 🟧 AWS Secure Serverless Notes API
 
-A small AWS serverless project demonstrating cloud engineering, infrastructure as code, API deployment, and managed database integration.
+[↩️ Back to AWS Cloud Engineering](../)  
+[📁 Back to Projects Index](../../)
+
+---
 
 ## Overview
 
-This project deploys a Python-based notes API using AWS CDK, API Gateway, Lambda, DynamoDB, IAM, CloudWatch, and CloudFormation.
+A production-pattern serverless notes API built and deployed entirely through code using AWS CDK, API Gateway, Lambda, DynamoDB, IAM, and CloudWatch.
 
-The API supports basic note operations:
+| Area | Detail |
+|---|---|
+| **Platform** | Amazon Web Services (AWS) |
+| **Language** | Python |
+| **Deployment** | AWS CDK → CloudFormation |
+| **Architecture** | API Gateway → Lambda → DynamoDB |
 
-- Create notes
-- View notes
-- Delete notes
+---
 
-## Architecture
+## Skills Demonstrated
 
-Client / curl → API Gateway → Lambda → DynamoDB
+| Skill | Evidence |
+|---|---|
+| **Infrastructure as Code** | Full stack defined and deployed using AWS CDK in Python |
+| **Serverless Architecture** | API Gateway → Lambda → DynamoDB — no server management |
+| **API Design** | REST API with Create, Read, and Delete note endpoints |
+| **Cloud Security** | IAM role scoped to least-privilege DynamoDB access only |
+| **Operational Logging** | CloudWatch logs capturing Lambda execution and API activity |
+| **Cost-Aware Design** | Pay-per-use serverless services — no idle compute cost |
 
-## AWS Services Used
+---
 
-- **AWS CDK** — Infrastructure as code
-- **API Gateway** — REST API endpoints
-- **AWS Lambda** — Python backend logic
-- **DynamoDB** — Notes database
-- **IAM** — Lambda permissions
-- **CloudWatch** — Logs and operational evidence
-- **CloudFormation** — Stack deployment
+## Deployment Evidence
 
-## Evidence Screenshots
-
-### CDK Deployment
+### CDK Stack Deployed
 
 ![CDK deployment](../../../assets/aws-cloud-engineering/aws-secure-serverless-application/cdk-deploy.png)
 
-### API POST Success
+### API POST — Note Created Successfully
 
 ![API POST success](../../../assets/aws-cloud-engineering/aws-secure-serverless-application/api-post-success.png)
 
-### DynamoDB Item Stored
+### DynamoDB — Item Stored and Verified
 
 ![DynamoDB item stored](../../../assets/aws-cloud-engineering/aws-secure-serverless-application/dynamodb-notes-table-item-stored.png)
 
-## Evidence Demonstrated
-
-- **Cloud Engineering** — Deployed a working AWS serverless API
-- **Infrastructure as Code** — Used AWS CDK in Python
-- **Serverless Compute** — Built Python Lambda functions
-- **API Management** — Exposed endpoints through API Gateway
-- **Data Storage** — Stored records in DynamoDB
-- **IAM Security** — Granted Lambda DynamoDB access only
-- **Monitoring** — Used CloudWatch logging
-- **Cost Awareness** — Used serverless pay-per-use services
-
-## Public-Safe Evidence
-
-This repository contains public-safe evidence only. It excludes secrets, access keys, confidential data, client information, production records, and sensitive operational details.
+---
 
 ## Future Improvements
 
-- Add Cognito authentication
-- Add user-specific note access
-- Add CloudWatch alarms
-- Add GitHub Actions deployment
-- Add S3 and CloudFront frontend hosting
+- Add Cognito authentication for user-specific note access
+- Add CloudWatch alarms for error rate monitoring
+- Add GitHub Actions CI/CD deployment pipeline
+- Add S3 and CloudFront for frontend hosting
+
+---
+
+> 🔒 Public-safe evidence only. No secrets, access keys, account IDs, production records, or confidential data are included.
