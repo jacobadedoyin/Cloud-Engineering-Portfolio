@@ -1,5 +1,17 @@
 title: Cloud Engineering Portfolio
+description: Cloud engineering portfolio demonstrating Azure and AWS cloud administration, identity governance, cloud security controls, secure data access, analytics platform management, monitoring, automation, and platform operations.
 show_downloads: false
 github:
   is_project_page: false
 theme: jekyll-theme-cayman
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
