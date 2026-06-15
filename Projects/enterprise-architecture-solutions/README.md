@@ -22,7 +22,7 @@ The projects show practical ownership of architecture and security controls acro
   </tr>
   <tr>
     <td width="310" valign="top">
-      🏦 <strong><a href="./financial-data-access-control-architecture/">Financial Data Access Governance</a></strong>
+      🏦 <strong><a href="./financial-data-access-governance/">Financial Data Access Governance</a></strong>
     </td>
     <td valign="top">
       Financial services access governance for sensitive reporting platforms, including RBAC, privileged access, least privilege, approvals, recertification, and audit-ready evidence.
@@ -30,7 +30,7 @@ The projects show practical ownership of architecture and security controls acro
   </tr>
   <tr>
     <td width="310" valign="top">
-      🔐 <strong><a href="./mfa-application-deployment-and-operations/">MFA Authentication Architecture</a></strong>
+      🔐 <strong><a href="./mfa-and-authentication-architecture/">MFA Authentication Architecture</a></strong>
     </td>
     <td valign="top">
       MFA deployment and authentication support, including onboarding, enrolment validation, sign-in triage, exception handling, stakeholder communication, and support documentation.
@@ -38,7 +38,7 @@ The projects show practical ownership of architecture and security controls acro
   </tr>
   <tr>
     <td width="310" valign="top">
-      📁 <strong><a href="./secure-file-transfer-platform-operations/">Secure File Transfer Architecture</a></strong>
+      📁 <strong><a href="./secure-file-transfer-governance/">Secure File Transfer Architecture</a></strong>
     </td>
     <td valign="top">
       Secure file transfer governance, including folder permissions, access reviews, operational checks, service-owner coordination, configuration evidence, and support documentation.
@@ -46,7 +46,7 @@ The projects show practical ownership of architecture and security controls acro
   </tr>
   <tr>
     <td width="310" valign="top">
-      🛡️ <strong><a href="./enterprise-vulnerability-risk-management/">Vulnerability and Risk Management</a></strong>
+      🛡️ <strong><a href="./vulnerability-and-risk-management/">Vulnerability and Risk Management</a></strong>
     </td>
     <td valign="top">
       Vulnerability remediation across Windows Server environments, including Qualys review, patch coordination, risk prioritisation, asset validation, exception awareness, and evidence capture.
@@ -54,7 +54,7 @@ The projects show practical ownership of architecture and security controls acro
   </tr>
   <tr>
     <td width="310" valign="top">
-      📊 <strong><a href="./business-intelligence-platform-management/">BI Platform Access Governance</a></strong>
+      📊 <strong><a href="./bi-platform-governance/">BI Platform Access Governance</a></strong>
     </td>
     <td valign="top">
       Qlik and Tableau access governance, JML lifecycle controls, licence management, access review preparation, stakeholder validation, and operational process improvement.
