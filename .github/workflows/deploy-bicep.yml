@@ -5,6 +5,15 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target environment'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+          - dev
+          - prod
 
 jobs:
   deploy:
@@ -24,11 +33,11 @@ jobs:
         with:
           azcliversion: latest
           inlineScript: |
-            az deployment group what-if --resource-group rg-cloud-portfolio --template-file Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/main.bicep --parameters Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/parameters.json
+            az deployment group what-if --resource-group rg-cloud-portfolio --template-file Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/main.bicep --parameters Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/environments/${{ github.event.inputs.environment || 'dev' }}/parameters.json
 
       - name: Deploy Bicep modules
         uses: azure/cli@v2
         with:
           azcliversion: latest
           inlineScript: |
-            az deployment group create --resource-group rg-cloud-portfolio --template-file Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/main.bicep --parameters Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/parameters.json
+            az deployment group create --resource-group rg-cloud-portfolio --template-file Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/main.bicep --parameters Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/environments/${{ github.event.inputs.environment || 'dev' }}/parameters.json
