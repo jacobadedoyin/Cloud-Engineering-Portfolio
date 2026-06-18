@@ -19,6 +19,7 @@ The projects show practical ownership of architecture and security controls acro
   <tr>
     <th align="left" width="310">Domain</th>
     <th align="left">Evidence Focus</th>
+    <th align="left">Skills</th>
   </tr>
   <tr>
     <td width="310" valign="top">
@@ -26,6 +27,9 @@ The projects show practical ownership of architecture and security controls acro
     </td>
     <td valign="top">
       Financial services access governance for sensitive reporting platforms, including RBAC, privileged access, least privilege, approvals, recertification, and audit-ready evidence.
+    </td>
+    <td valign="top">
+      <code>RBAC</code> <code>PIM</code> <code>Entra ID</code> <code>Least Privilege</code> <code>Access Reviews</code>
     </td>
   </tr>
   <tr>
@@ -35,6 +39,9 @@ The projects show practical ownership of architecture and security controls acro
     <td valign="top">
       MFA deployment and authentication support, including onboarding, enrolment validation, sign-in triage, exception handling, stakeholder communication, and support documentation.
     </td>
+    <td valign="top">
+      <code>MFA</code> <code>Conditional Access</code> <code>Entra ID</code> <code>Sign-in Logs</code> <code>KQL</code>
+    </td>
   </tr>
   <tr>
     <td width="310" valign="top">
@@ -42,6 +49,9 @@ The projects show practical ownership of architecture and security controls acro
     </td>
     <td valign="top">
       Secure file transfer governance, including folder permissions, access reviews, operational checks, service-owner coordination, configuration evidence, and support documentation.
+    </td>
+    <td valign="top">
+      <code>NTFS Permissions</code> <code>Access Reviews</code> <code>SFTP</code> <code>Change Management</code>
     </td>
   </tr>
   <tr>
@@ -51,6 +61,9 @@ The projects show practical ownership of architecture and security controls acro
     <td valign="top">
       Vulnerability remediation across Windows Server environments, including Qualys review, patch coordination, risk prioritisation, asset validation, exception awareness, and evidence capture.
     </td>
+    <td valign="top">
+      <code>Qualys</code> <code>CVSS</code> <code>Patch Management</code> <code>Risk Prioritisation</code> <code>Windows Server</code>
+    </td>
   </tr>
   <tr>
     <td width="310" valign="top">
@@ -58,6 +71,9 @@ The projects show practical ownership of architecture and security controls acro
     </td>
     <td valign="top">
       Qlik and Tableau access governance, JML lifecycle controls, licence management, access review preparation, stakeholder validation, and operational process improvement.
+    </td>
+    <td valign="top">
+      <code>JML</code> <code>Qlik</code> <code>Tableau</code> <code>Licence Management</code> <code>Access Reviews</code>
     </td>
   </tr>
 </table>
