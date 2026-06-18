@@ -8,27 +8,22 @@
 
 ## Lab Evidence Scope
 
-This section contains Azure certification-aligned lab evidence, practical implementation work, and supporting learning records.
-
-The focus is on demonstrating applied Azure administration skills across **identity, governance, security, networking, compute, monitoring, and infrastructure management**.
+This section contains Azure certification-aligned lab evidence, practical implementation work, and supporting learning records across identity, governance, security, networking, compute, and application deployment.
 
 ---
 
 ## Evidence Navigation
 
-| Area | Certification Focus | Evidence Demonstrated |
+| Area | Evidence Demonstrated | Skills |
 |---|---|---|
-| [**Azure Fundamentals Evidence**](azure-fundamentals-evidence) | **AZ-900** — Azure cloud concepts, core services, pricing, governance, and security basics | Foundational Azure knowledge, cloud service models, resource management, governance concepts, and basic security awareness |
-| [**Security, Compliance and Identity Evidence**](security-compliance-identity-evidence) | **SC-900** — Microsoft security, compliance, identity, and Entra ID fundamentals | Identity concepts, Zero Trust principles, Microsoft Entra ID, compliance basics, security tooling, and access control foundations |
-| [**Azure Administrator Evidence**](azure-administrator-evidence) | **AZ-104** — Azure administration, identity, compute, networking, storage, monitoring, and governance | Hands-on Azure administration evidence covering RBAC, Azure Policy, VMs, networking, storage, monitoring, PowerShell, and operational configuration |
-| [**Certificates**](certificates) | Certification records and completion evidence | Certificates, badges, completion screenshots, study records, and supporting learning documentation |
+| [**Azure Identity and Governance Engineering**](azure-identity-governance-engineering) | Identity lifecycle automation, RBAC group models, policy-as-code governance, secure storage with WORM immutability, hub-spoke network segmentation, NSG enforcement, VNet peering, UDRs, and service endpoints | `Entra ID` `RBAC` `Azure Policy` `PowerShell` `Blob Storage` `Immutability` `VNet` `NSG` `UDR` `VNet Peering` `Azure CLI` |
+| [**Azure Identity Security Foundations**](azure-identity-security-foundations) | Identity governance with resource locks, tagging accountability, secure VM deployment, NSG hardening, IP-based access restriction, and CI/CD-controlled application deployment via GitHub Actions | `Entra ID` `Resource Locks` `RBAC` `Azure Policy` `VNet` `NSG` `GitHub Actions` `Azure Static Web Apps` `PowerShell` `Azure CLI` |
+| [**Certificates**](certificates) | Certification records and completion evidence | `AZ-104` `SC-900` `AZ-900` |
+
 ---
+
 ## Skills and Evidence Summary
 
-This section demonstrates applied Azure administration across **Entra ID, RBAC, Azure Policy, storage security, networking, compute, monitoring, PowerShell, and resource management**.
+Applied Azure administration across **Entra ID, RBAC, Azure Policy, storage security, networking, compute, CI/CD deployment, and PowerShell automation**.
 
-Evidence supports **AZ-104-aligned learning** and shows practical implementation rather than exam theory.
-
-Evidence may include lab READMEs, diagrams, screenshots, command examples, PowerShell snippets, configuration notes, and certification records.
-
-All evidence is public-safe, sanitised, recreated, or lab-based.
+Evidence is practical and implementation-led rather than theory-based. All content is public-safe, sanitised, recreated, or lab-based.
