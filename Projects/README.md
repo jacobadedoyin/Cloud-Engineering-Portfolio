@@ -1,7 +1,7 @@
 # Portfolio Project Areas
 
 <p>
-  <strong><a href="../">↩️ Back to Main Portfolio</a></strong>
+  <strong><a href="https://github.com/jacobadedoyin/Cloud-Engineering-Portfolio">↩️ Back to Main Portfolio</a></strong>
 </p>
 
 ---
