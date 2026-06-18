@@ -1,4 +1,3 @@
-cat > ~/Cloud-Engineering-Portfolio/Projects/azure-cloud-engineering/infrastructure-as-code-and-cloud-governance/bicep/main.bicep << 'EOF'
 @description('Environment name')
 param environment string
 
@@ -54,4 +53,3 @@ module alertRule 'modules/monitoring/alert-rule.bicep' = {
     logAnalyticsWorkspaceId: logAnalytics.outputs.workspaceId
   }
 }
-EOF
