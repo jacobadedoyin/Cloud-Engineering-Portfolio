@@ -1,4 +1,4 @@
-# 🏦 Financial Services Access Governance Architecture
+# 🏦 Financial Data Access Governance
 
 <p align="left">
   ↩️ <a href="../"><strong>Back to Enterprise Security Architecture</strong></a><br>
@@ -7,23 +7,23 @@
 
 ## Overview
 
-This project presents a public-safe access governance architecture for sensitive financial services data platforms.
-
-Financial services environments require strong identity controls because access affects confidentiality, auditability, segregation of duties, reporting integrity, and trust in business-critical data. The design uses **Microsoft Entra ID, MFA, Conditional Access, RBAC, least privilege, access reviews, audit logging, and governance documentation** to show how sensitive access can be controlled and reviewed.
-
-## Delivery Evidence
-
-| Area | Summary |
-|---|---|
-| **Problem** | Sensitive financial services data requires controlled, auditable, and role-based access. |
-| **Action** | Designed an access governance architecture covering identity, permissions, review processes, and monitoring. |
-| **Tools / Evidence** | Microsoft Entra ID, MFA, Conditional Access, RBAC, access reviews, audit logging, architecture diagrams, and governance documentation. |
-| **Control Value** | Supports least privilege, segregation of duties, stale access reduction, audit readiness, and stronger access oversight. |
-| **Public-Safe Evidence** | Architecture diagrams and governance design summaries with sensitive platform, user, and business details removed. |
+Delivered access governance controls for sensitive financial reporting platforms in a regulated enterprise environment. Work covered end-to-end ownership of role assignments, access review coordination, privileged access controls, and audit-ready evidence capture across Microsoft Entra ID.
 
 ---
 
-## Architecture Overview
+## What I Did
+
+| Area | Detail |
+|---|---|
+| **RBAC Design** | Scoped role assignments to least-privilege across financial reporting platforms, removing overprivileged access identified during review. |
+| **Access Reviews** | Coordinated periodic recertification with platform owners, validated business justification for continued access, and documented outcomes. |
+| **Privileged Access** | Applied controls to limit and monitor privileged role assignments, with sign-in and audit log review via KQL. |
+| **Conditional Access** | Reviewed and validated Conditional Access policies enforcing MFA and compliant device requirements for sensitive platform access. |
+| **Audit Evidence** | Captured and structured audit-ready evidence covering access assignments, review outcomes, and approval records. |
+
+---
+
+## Architecture
 
 <p align="center">
   <img src="../../../assets/identity-security-architecture/financial-services-access-governance-architecture.png" alt="Financial Services Access Governance Architecture" width="900">
@@ -33,8 +33,6 @@ Financial services environments require strong identity controls because access 
 
 ## Governance Design
 
-The design focuses on how identity, access control, monitoring, and governance processes work together to reduce access risk and support audit-ready operations.
-
 <p align="center">
   <img src="../../../assets/identity-security-architecture/financial-services-access-governance-design.png" alt="Financial Services Access Governance Design" width="900">
 </p>
@@ -43,31 +41,22 @@ The design focuses on how identity, access control, monitoring, and governance p
 
 ## Skills Demonstrated
 
-| Skill Area | Evidence Demonstrated |
+| Skill | Tool / Method |
 |---|---|
-| **Identity Governance** | Use of Microsoft Entra ID as the central identity layer for controlled access to sensitive platforms. |
-| **Role-Based Access Control** | Design of access around roles, permissions, least privilege, and business need. |
-| **Conditional Access Awareness** | Use of access conditions to strengthen authentication and reduce inappropriate access risk. |
-| **MFA Control Design** | Inclusion of MFA as a key control for sensitive financial services access. |
-| **Access Review Process** | Governance model for periodic access review, stale access reduction, and ownership validation. |
-| **Segregation of Duties** | Awareness of conflicting access risks in financial services and reporting environments. |
-| **Audit Logging** | Recognition of the need for access activity, approval, and review evidence. |
-| **Public-Safe Architecture** | Ability to present security architecture without exposing platform names, user details, or internal system information. |
+| Role-Based Access Control | Microsoft Entra ID, Azure RBAC |
+| Privileged Access Governance | PIM, audit log review, KQL |
+| Conditional Access | Entra ID Conditional Access policies |
+| Access Reviews | Entra ID Access Reviews, manual recertification |
+| Audit Logging | KQL queries, sign-in log analysis |
+| Least Privilege Enforcement | Role scoping, access removal, justification validation |
+| Segregation of Duties | Conflicting access identification in financial reporting context |
 
-## Professional Relevance
+---
 
-This project is relevant to IAM Engineer, Security Architecture, Cloud Security, GRC, and financial services technology roles.
+## Relevance to Financial Services Roles
 
-It demonstrates practical understanding of how sensitive access should be:
+Directly applicable to IAM Engineer, Cloud Security, and GRC roles in regulated financial services environments. Demonstrates practical delivery of the access controls required under frameworks including SOX, DORA, and FCA operational resilience guidance.
 
-- role-based
-- approved
-- reviewed
-- monitored
-- auditable
-- aligned to least privilege
-- protected by strong authentication
+---
 
-## Public-Safe Note
-
-This project uses public-safe and sanitised evidence only. It does not include real platform names, user names, internal groups, business data, approval records, screenshots, system identifiers, or confidential access review outputs.
+> 🔒 All evidence is public-safe and sanitised. No real platform names, user identities, internal system references, or confidential business data are included.
