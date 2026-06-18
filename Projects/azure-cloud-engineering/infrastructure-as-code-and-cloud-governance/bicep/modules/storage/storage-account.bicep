@@ -20,3 +20,28 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   properties: {
     accessTier: accessTier
     supportsHttpsTrafficOnly: true
+    minimumTlsVersion: 'TLS1_2'
+    allowBlobPublicAccess: false
+    networkAcls: {
+      defaultAction: 'Deny'
+      bypass: 'AzureServices'
+    }
+  }
+  tags: {
+    environment: environment
+    'managed-by': 'bicep'
+    project: 'azure-landing-zone-lite'
+  }
+}
+
+resource storageLock 'Microsoft.Authorization/locks@2020-05-01' = {
+  name: '${storageAccountName}-lock'
+  scope: storageAccount
+  properties: {
+    level: 'CanNotDelete'
+    notes: 'Locked to prevent accidental deletion'
+  }
+}
+
+output storageAccountId string = storageAccount.id
+output storageAccountName string = storageAccount.name
