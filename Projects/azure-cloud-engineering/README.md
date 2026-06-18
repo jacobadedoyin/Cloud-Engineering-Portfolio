@@ -30,7 +30,7 @@ The emphasis is on professional, workplace-aligned delivery rather than generic 
     ⚙️ <strong><a href="infrastructure-as-code-and-cloud-governance">Infrastructure as Code and Cloud Governance</a></strong>
   </td>
   <td align="left">
-    Bicep module library and Azure Policy assignments enforcing naming conventions and mandatory tags across a simulated multi-subscription environment. Includes NSG flow logs, Log Analytics integration, and Activity Log alert rules for privileged role assignments.
+    Bicep module library deploying a hardened storage account, Log Analytics workspace, NSG with diagnostic settings, and an alert rule for privileged role assignments. All resources deployed via Azure CLI to UK South with consistent naming conventions and mandatory tagging enforced at the module level.
   </td>
 </tr>
 
