@@ -15,7 +15,7 @@ This portfolio demonstrates practical delivery across Azure and AWS cloud admini
 ## 🧭 Navigation
 
 ☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)**  
-Azure Govenance · Entra ID · RBAC · Monitoring · KQL · Terraform · Bicep
+Bicep · GitHub Actions · VNet · NSG · Key Vault · Managed Identity · KQL · Azure Monitor
 
 🟧 **[AWS Cloud Engineering](Projects/aws-cloud-engineering)**  
 Serverless architecture · IAM · Cognito · API Gateway · Lambda · DynamoDB · S3 · CloudFront · CloudWatch · CDK
