@@ -17,7 +17,17 @@ This is the kind of baseline a cloud engineer would build before handing an envi
 *Four resources confirmed deployed across storage, networking, monitoring, and alerting — all via a single CLI command, all showing Succeeded status in UK South.*
 
 ---
+## Code
 
+The Bicep modules and environment parameter files are in the [`bicep/`](bicep/) directory of this project.
+
+| File | Purpose |
+|---|---|
+| [`bicep/modules/storage/storage-account.bicep`](bicep/modules/storage/storage-account.bicep) | Hardened storage account module |
+| [`bicep/modules/monitoring/log-analytics.bicep`](bicep/modules/monitoring/log-analytics.bicep) | Log Analytics workspace module |
+| [`bicep/modules/networking/nsg.bicep`](bicep/modules/networking/nsg.bicep) | NSG with diagnostic settings module |
+| [`bicep/modules/monitoring/alert-rule.bicep`](bicep/modules/monitoring/alert-rule.bicep) | Privileged role assignment alert rule module |
+| [`bicep/environments/prod/`](bicep/environments/prod/) | Production parameter files |
 ## Resources Deployed
 
 | Resource | Name | Module |
