@@ -26,6 +26,15 @@ resource logAnalyticsWorkspace 'Microsoft.OperationalInsights/workspaces@2022-10
   }
 }
 
+resource workspaceLock 'Microsoft.Authorization/locks@2020-05-01' = {
+  name: '${workspaceName}-lock'
+  scope: logAnalyticsWorkspace
+  properties: {
+    level: 'CanNotDelete'
+    notes: 'Locked to prevent accidental deletion'
+  }
+}
+
 output workspaceId string = logAnalyticsWorkspace.id
 output workspaceName string = logAnalyticsWorkspace.name
 output customerId string = logAnalyticsWorkspace.properties.customerId

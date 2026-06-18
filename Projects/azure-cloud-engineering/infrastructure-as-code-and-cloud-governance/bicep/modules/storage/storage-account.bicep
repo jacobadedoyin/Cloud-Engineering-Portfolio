@@ -20,19 +20,3 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   properties: {
     accessTier: accessTier
     supportsHttpsTrafficOnly: true
-    minimumTlsVersion: 'TLS1_2'
-    allowBlobPublicAccess: false
-    networkAcls: {
-      defaultAction: 'Deny'
-      bypass: 'AzureServices'
-    }
-  }
-  tags: {
-    environment: environment
-    'managed-by': 'bicep'
-    project: 'azure-landing-zone-lite'
-  }
-}
-
-output storageAccountId string = storageAccount.id
-output storageAccountName string = storageAccount.name
