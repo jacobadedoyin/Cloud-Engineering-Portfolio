@@ -7,9 +7,9 @@
 
 ## Azure Engineering Scope
 
-This section demonstrates practical Azure engineering across **infrastructure as code, network architecture, cloud monitoring, identity governance, and CI/CD automation**.
+This section demonstrates practical Azure engineering across **infrastructure as code, network architecture, secrets management, cloud monitoring, identity governance, and CI/CD automation**.
 
-Evidence combines personal subscription deployments, sanitised workplace experience, and lab-based work. All IaC projects are live deployments on a personal Azure subscription with full GitHub Actions pipelines.
+All three projects are live deployments on a personal Azure subscription with full GitHub Actions pipelines, what-if preview, and environment promotion across dev and prod. Evidence combines personal subscription deployments, sanitised workplace experience, and lab-based work.
 
 <p align="center">
   <img src="../../assets/azure-cloud-engineering/cloud-engineering-overview.png" alt="Azure Cloud Engineering overview" width="900">
@@ -30,10 +30,10 @@ Evidence combines personal subscription deployments, sanitised workplace experie
       ⚙️ <strong><a href="infrastructure-as-code-and-cloud-governance">Infrastructure as Code and Cloud Governance</a></strong>
     </td>
     <td align="left">
-      Bicep module library deploying a hardened storage account, Log Analytics workspace, NSG with diagnostic settings, and an alert rule for privileged role assignments. Deployed via GitHub Actions CI/CD pipeline with what-if preview, environment promotion across dev and prod, and CanNotDelete resource locks enforced on critical resources.
+      Bicep module library deploying a hardened storage account, Log Analytics workspace, NSG with diagnostic settings, and an alert rule for privileged role assignments. Deployed via GitHub Actions CI/CD pipeline with what-if preview, environment promotion across dev and prod, and CanNotDelete resource locks enforced on critical resources. Key Vault module added for secrets management with RBAC-based access.
     </td>
     <td align="left">
-      <code>Bicep</code> <code>Azure CLI</code> <code>NSG</code> <code>Log Analytics</code> <code>GitHub Actions</code> <code>Resource Locks</code> <code>ARM</code>
+      <code>Bicep</code> <code>Azure CLI</code> <code>NSG</code> <code>Log Analytics</code> <code>GitHub Actions</code> <code>Resource Locks</code> <code>Key Vault</code> <code>RBAC</code>
     </td>
   </tr>
   <tr>
@@ -41,10 +41,10 @@ Evidence combines personal subscription deployments, sanitised workplace experie
       🌐 <strong><a href="hub-spoke-network-architecture">Hub-Spoke Network Architecture</a></strong>
     </td>
     <td align="left">
-      Hub-spoke VNet topology with peered spoke networks, NSG rules enforced on each subnet, private DNS zone, and a private endpoint locking the storage account off the public internet. Deployed via Bicep and GitHub Actions pipeline.
+      Hub-spoke VNet topology with peered spoke networks, NSG rules enforced on each subnet, private DNS zone, and a private endpoint locking the storage account off the public internet. Managed Identity assigned to spoke VM with Key Vault Secrets User role for credential-free secret retrieval. Deployed via Bicep and GitHub Actions pipeline.
     </td>
     <td align="left">
-      <code>VNet</code> <code>VNet Peering</code> <code>NSG</code> <code>Private Endpoints</code> <code>Private DNS</code> <code>Bicep</code> <code>GitHub Actions</code>
+      <code>VNet</code> <code>VNet Peering</code> <code>NSG</code> <code>Private Endpoints</code> <code>Private DNS</code> <code>Managed Identity</code> <code>Key Vault</code> <code>Bicep</code> <code>GitHub Actions</code>
     </td>
   </tr>
   <tr>
@@ -52,10 +52,10 @@ Evidence combines personal subscription deployments, sanitised workplace experie
       📊 <strong><a href="monitoring-operations-and-service-visibility">Monitoring, Operations and Service Visibility</a></strong>
     </td>
     <td align="left">
-      End-to-end monitoring stack built from scratch on a personal Azure subscription. Azure Monitor Agent deployed across a VM estate, Data Collection Rules and Endpoints configured for telemetry ingestion, KQL queries written for heartbeat monitoring and performance analysis, and operational visibility delivered via Azure Workbooks.
+      End-to-end monitoring stack built from scratch on a personal Azure subscription. Azure Monitor Agent deployed across a VM estate, Data Collection Rules and Endpoints configured for telemetry ingestion, KQL queries written for heartbeat monitoring and performance analysis, operational visibility delivered via Azure Workbooks, and security posture tracked via Defender for Cloud.
     </td>
     <td align="left">
-      <code>Azure Monitor</code> <code>AMA</code> <code>DCR</code> <code>DCE</code> <code>KQL</code> <code>Log Analytics</code> <code>Workbooks</code>
+      <code>Azure Monitor</code> <code>AMA</code> <code>DCR</code> <code>DCE</code> <code>KQL</code> <code>Log Analytics</code> <code>Workbooks</code> <code>Defender for Cloud</code>
     </td>
   </tr>
 </table>
