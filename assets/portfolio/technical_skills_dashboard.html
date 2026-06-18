@@ -1,0 +1,217 @@
+
+<style>
+.ts-wrap { font-family: var(--font-sans); padding: 0; }
+.ts-header { background: #0f2d52; border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0; padding: 20px 24px 16px; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.ts-header-left h1 { color: #fff; font-size: 22px; font-weight: 500; margin: 0 0 4px; }
+.ts-header-left p { color: #8ab4d8; font-size: 13px; margin: 0; }
+.ts-badges { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.ts-badge { background: rgba(255,255,255,0.1); border: 0.5px solid rgba(255,255,255,0.2); border-radius: var(--border-radius-md); padding: 6px 12px; color: #fff; font-size: 11px; text-align: center; }
+.ts-badge span { display: block; color: #8ab4d8; font-size: 10px; margin-top: 2px; }
+.ts-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--color-border-tertiary); }
+.ts-panel { background: var(--color-background-primary); padding: 16px 18px; }
+.ts-panel-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+.ts-panel-icon { width: 32px; height: 32px; border-radius: var(--border-radius-md); display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
+.ts-panel-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); text-transform: uppercase; letter-spacing: 0.04em; }
+.ts-items { list-style: none; margin: 0; padding: 0; }
+.ts-items li { font-size: 12px; color: var(--color-text-secondary); padding: 3px 0 3px 14px; position: relative; line-height: 1.4; }
+.ts-items li::before { content: '·'; position: absolute; left: 4px; color: var(--color-text-tertiary); }
+.ts-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 10px; }
+.ts-tag { font-size: 10px; padding: 2px 7px; border-radius: 4px; border: 0.5px solid var(--color-border-secondary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+.ts-tools { background: #0f2d52; border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg); padding: 14px 24px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ts-tools-label { color: #8ab4d8; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; margin-right: 4px; white-space: nowrap; }
+.ts-tool { background: rgba(255,255,255,0.1); border: 0.5px solid rgba(255,255,255,0.15); border-radius: var(--border-radius-md); padding: 4px 10px; color: #fff; font-size: 11px; }
+.ts-note { background: var(--color-background-secondary); border-top: 0.5px solid var(--color-border-tertiary); padding: 10px 24px; display: flex; align-items: center; gap: 8px; border-radius: 0 0 var(--border-radius-lg) var(--border-radius-lg); }
+.ts-note p { font-size: 11px; color: var(--color-text-tertiary); margin: 0; }
+.icon-blue { background: #e6f1fb; color: #185fa5; }
+.icon-purple { background: #eeedfe; color: #534ab7; }
+.icon-teal { background: #e1f5ee; color: #0f6e56; }
+.icon-amber { background: #faeeda; color: #854f0b; }
+.icon-coral { background: #faece7; color: #993c1d; }
+.icon-green { background: #eaf3de; color: #3b6d11; }
+</style>
+<div class="ts-wrap">
+<h2 class="sr-only">Technical skills dashboard covering identity governance, cloud infrastructure, network security, monitoring, AWS engineering, and vulnerability management</h2>
+<div class="ts-header">
+  <div class="ts-header-left">
+    <h1>Technical Skills</h1>
+    <p>Cloud Security Engineering · Identity Governance · Infrastructure as Code · Monitoring · AWS · Vulnerability Management</p>
+  </div>
+  <div class="ts-badges">
+    <div class="ts-badge"><i class="ti ti-lock" aria-hidden="true"></i> Secure access<span>Least privilege by design</span></div>
+    <div class="ts-badge"><i class="ti ti-file-check" aria-hidden="true"></i> Audit ready<span>Evidence driven</span></div>
+    <div class="ts-badge"><i class="ti ti-terminal-2" aria-hidden="true"></i> Automated<span>Infrastructure as code</span></div>
+    <div class="ts-badge"><i class="ti ti-activity" aria-hidden="true"></i> Operational<span>Monitoring and response</span></div>
+  </div>
+</div>
+<div class="ts-grid">
+
+  <div class="ts-panel">
+    <div class="ts-panel-header">
+      <div class="ts-panel-icon icon-purple"><i class="ti ti-users" aria-hidden="true"></i></div>
+      <div class="ts-panel-title">Identity and access governance</div>
+    </div>
+    <ul class="ts-items">
+      <li>Entra ID tenant architecture and group strategy</li>
+      <li>RBAC and custom role design</li>
+      <li>MFA and Conditional Access policies</li>
+      <li>Joiner-Mover-Leaver workflows</li>
+      <li>Access reviews and recertification</li>
+      <li>Segregation of duties enforcement</li>
+      <li>Privileged Identity Management (PIM)</li>
+      <li>Break-glass account monitoring</li>
+    </ul>
+    <div class="ts-tags">
+      <span class="ts-tag">Entra ID</span>
+      <span class="ts-tag">RBAC</span>
+      <span class="ts-tag">PIM</span>
+      <span class="ts-tag">MFA</span>
+      <span class="ts-tag">Conditional Access</span>
+      <span class="ts-tag">JML</span>
+    </div>
+  </div>
+
+  <div class="ts-panel">
+    <div class="ts-panel-header">
+      <div class="ts-panel-icon icon-blue"><i class="ti ti-settings-automation" aria-hidden="true"></i></div>
+      <div class="ts-panel-title">Cloud infrastructure and IaC</div>
+    </div>
+    <ul class="ts-items">
+      <li>Bicep module library with environment promotion</li>
+      <li>GitHub Actions CI/CD with what-if preview</li>
+      <li>CanNotDelete resource locks</li>
+      <li>Key Vault secrets management (RBAC access)</li>
+      <li>Managed Identity credential-free access</li>
+      <li>Azure Policy and compliance enforcement</li>
+      <li>Resource tagging and naming conventions</li>
+      <li>Dev and prod parameter splits</li>
+    </ul>
+    <div class="ts-tags">
+      <span class="ts-tag">Bicep</span>
+      <span class="ts-tag">GitHub Actions</span>
+      <span class="ts-tag">Key Vault</span>
+      <span class="ts-tag">Managed Identity</span>
+      <span class="ts-tag">Azure Policy</span>
+      <span class="ts-tag">ARM</span>
+    </div>
+  </div>
+
+  <div class="ts-panel">
+    <div class="ts-panel-header">
+      <div class="ts-panel-icon icon-teal"><i class="ti ti-network" aria-hidden="true"></i></div>
+      <div class="ts-panel-title">Network security</div>
+    </div>
+    <ul class="ts-items">
+      <li>Hub-spoke VNet topology design</li>
+      <li>VNet peering over Microsoft backbone</li>
+      <li>NSG rule enforcement per subnet</li>
+      <li>Private endpoints for storage and services</li>
+      <li>Private DNS zone configuration</li>
+      <li>Service endpoints for subnet-scoped access</li>
+      <li>User-defined routes and traffic control</li>
+      <li>Network segmentation and lateral movement controls</li>
+    </ul>
+    <div class="ts-tags">
+      <span class="ts-tag">VNet</span>
+      <span class="ts-tag">NSG</span>
+      <span class="ts-tag">Private Endpoints</span>
+      <span class="ts-tag">Private DNS</span>
+      <span class="ts-tag">VNet Peering</span>
+      <span class="ts-tag">UDR</span>
+    </div>
+  </div>
+
+  <div class="ts-panel">
+    <div class="ts-panel-header">
+      <div class="ts-panel-icon icon-amber"><i class="ti ti-chart-bar" aria-hidden="true"></i></div>
+      <div class="ts-panel-title">Monitoring and detection</div>
+    </div>
+    <ul class="ts-items">
+      <li>Azure Monitor Agent deployment across VM estate</li>
+      <li>Data Collection Rules and Endpoints</li>
+      <li>KQL queries for heartbeat and performance</li>
+      <li>Log Analytics workspace design</li>
+      <li>Azure Workbooks for operational reporting</li>
+      <li>Privileged role assignment alert rules</li>
+      <li>Defender for Cloud secure score and remediation</li>
+      <li>VM heartbeat and CPU threshold alerting</li>
+    </ul>
+    <div class="ts-tags">
+      <span class="ts-tag">KQL</span>
+      <span class="ts-tag">AMA</span>
+      <span class="ts-tag">DCR</span>
+      <span class="ts-tag">Log Analytics</span>
+      <span class="ts-tag">Workbooks</span>
+      <span class="ts-tag">Defender for Cloud</span>
+    </div>
+  </div>
+
+  <div class="ts-panel">
+    <div class="ts-panel-header">
+      <div class="ts-panel-icon icon-coral"><i class="ti ti-brand-aws" aria-hidden="true"></i></div>
+      <div class="ts-panel-title">AWS engineering</div>
+    </div>
+    <ul class="ts-items">
+      <li>Serverless architecture with AWS CDK</li>
+      <li>API Gateway and Lambda deployment</li>
+      <li>DynamoDB table design and access control</li>
+      <li>Cognito User Pool and Identity Pool</li>
+      <li>Federated identity trust and JWT authorisation</li>
+      <li>IAM least privilege execution roles</li>
+      <li>CloudWatch logging and monitoring</li>
+      <li>S3 and CloudFront static hosting</li>
+    </ul>
+    <div class="ts-tags">
+      <span class="ts-tag">AWS CDK</span>
+      <span class="ts-tag">Lambda</span>
+      <span class="ts-tag">API Gateway</span>
+      <span class="ts-tag">Cognito</span>
+      <span class="ts-tag">DynamoDB</span>
+      <span class="ts-tag">IAM</span>
+      <span class="ts-tag">CloudWatch</span>
+    </div>
+  </div>
+
+  <div class="ts-panel">
+    <div class="ts-panel-header">
+      <div class="ts-panel-icon icon-green"><i class="ti ti-shield-check" aria-hidden="true"></i></div>
+      <div class="ts-panel-title">Vulnerability and risk management</div>
+    </div>
+    <ul class="ts-items">
+      <li>Qualys vulnerability scanning and review</li>
+      <li>CVSS-based risk prioritisation</li>
+      <li>Patch coordination across Windows Server</li>
+      <li>Asset validation and exception management</li>
+      <li>Secure file transfer governance</li>
+      <li>BI platform access governance (Qlik, Tableau)</li>
+      <li>Audit-ready evidence capture</li>
+      <li>Operational process improvement</li>
+    </ul>
+    <div class="ts-tags">
+      <span class="ts-tag">Qualys</span>
+      <span class="ts-tag">CVSS</span>
+      <span class="ts-tag">Patch Management</span>
+      <span class="ts-tag">Windows Server</span>
+      <span class="ts-tag">Qlik</span>
+      <span class="ts-tag">Tableau</span>
+    </div>
+  </div>
+
+</div>
+<div class="ts-tools">
+  <span class="ts-tools-label">Technologies and tools</span>
+  <span class="ts-tool">Microsoft Entra ID</span>
+  <span class="ts-tool">Bicep</span>
+  <span class="ts-tool">Azure Monitor</span>
+  <span class="ts-tool">GitHub Actions</span>
+  <span class="ts-tool">AWS CDK</span>
+  <span class="ts-tool">PowerShell</span>
+  <span class="ts-tool">Azure CLI</span>
+  <span class="ts-tool">KQL</span>
+  <span class="ts-tool">Qualys</span>
+  <span class="ts-tool">Log Analytics</span>
+</div>
+<div class="ts-note">
+  <i class="ti ti-lock" style="font-size:14px; color: var(--color-text-tertiary);" aria-hidden="true"></i>
+  <p>All evidence is public-safe and sanitised. No confidential data, client information, tenant details, internal URLs, or sensitive operational records included.</p>
+</div>
+</div>
