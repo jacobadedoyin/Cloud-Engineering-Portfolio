@@ -15,7 +15,7 @@ This portfolio demonstrates practical delivery across Azure and AWS cloud admini
 ## 🧭 Navigation
 
 ☁️ **[Azure Cloud Engineering](Projects/azure-cloud-engineering)**  
-Bicep · GitHub Actions · VNet · NSG · Key Vault · Managed Identity · KQL · Azure Monitor
+Bicep · GitHub Actions · VNet · NSG · Private Endpoints · Key Vault · Managed Identity · KQL · Azure Monitor · RBAC
 
 🟧 **[AWS Cloud Engineering](Projects/aws-cloud-engineering)**  
 Serverless architecture · IAM · Cognito · API Gateway · Lambda · DynamoDB · S3 · CloudFront · CloudWatch · CDK
