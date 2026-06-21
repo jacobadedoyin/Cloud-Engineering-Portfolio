@@ -61,15 +61,13 @@ All three projects are live deployments on a personal Azure subscription with fu
 </table>
 
 ---
-
-## Supporting Evidence
-
-🎓 **[Certification and Lab Evidence](certification-and-lab-evidence)**
+## Certifications
 
 <table>
   <tr>
     <th align="left" width="160">Certification</th>
     <th align="left">Focus Area</th>
+    <th align="left">Certificate</th>
     <th align="left">Lab Evidence</th>
   </tr>
   <tr>
@@ -78,6 +76,9 @@ All three projects are live deployments on a personal Azure subscription with fu
     </td>
     <td align="left">
       Core cloud concepts, Azure services, pricing, and governance fundamentals.
+    </td>
+    <td align="left">
+      <a href="certificates/az900-certificate.pdf">View certificate</a>
     </td>
     <td align="left">
       <a href="../azure-identity-security-foundations">azure-identity-security-foundations</a>
@@ -91,6 +92,9 @@ All three projects are live deployments on a personal Azure subscription with fu
       Identity, governance, storage, compute, virtual networking, and monitoring administration.
     </td>
     <td align="left">
+      <a href="certificates/AZ-104.pdf">View certificate</a>
+    </td>
+    <td align="left">
       <a href="../azure-identity-governance-engineering">azure-identity-governance-engineering</a>
     </td>
   </tr>
@@ -102,7 +106,10 @@ All three projects are live deployments on a personal Azure subscription with fu
       Microsoft Entra ID, Zero Trust principles, compliance, and security concepts.
     </td>
     <td align="left">
-      No labs (conceptual coverage only)
+      <a href="certificates/sc900-certificate.pdf">View certificate</a>
+    </td>
+    <td align="left">
+       <a href="../azure-identity-security-foundations">azure-identity-security-foundations</a>
     </td>
   </tr>
 </table>
