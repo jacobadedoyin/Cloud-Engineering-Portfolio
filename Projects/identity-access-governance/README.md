@@ -7,9 +7,9 @@
 
 ## Overview
 
-This section demonstrates enterprise architecture and governance delivery across business-critical platforms, with a focus on secure access design, authentication controls, regulated data access, platform permissions, BI governance, vulnerability risk management, and audit-ready evidence.
+This section demonstrates identity and access governance delivery across business-critical platforms, with a focus on secure access design, authentication controls, regulated data access, platform permissions, BI governance, vulnerability risk management, and audit-ready evidence. 
 
-The projects show practical ownership of architecture and security controls across identity, application access, financial data platforms, file transfer services, BI platforms, and Windows Server environments.
+The projects show practical ownership of access governance and security controls across identity, application access, financial data platforms, file transfer services, BI platforms, and Windows Server environments.
 
 ---
 
