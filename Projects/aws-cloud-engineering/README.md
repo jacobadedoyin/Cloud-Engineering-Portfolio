@@ -41,16 +41,16 @@ This section contains AWS cloud engineering evidence focused on serverless archi
     </td>
   </tr>
   <tr>
-    <td align="left" width="320">
-      🚀 <strong><a href="aws-cicd-deployment-pipeline">Automated CDK Deployment Pipeline</a></strong>
-    </td>
-    <td align="left">
-      CI/CD pipeline using GitHub Actions to lint, test, and deploy the CDK stack on merge, with separate dev/prod environments and automated rollback on failed health checks.
-    </td>
-    <td align="left">
-      <code>CDK</code> <code>GitHub Actions</code> <code>CodePipeline</code> <code>CloudFormation</code> <code>IAM</code>
-    </td>
-  </tr>
+  <td align="left" width="320">
+    🚀 <strong><a href="aws-cicd-deployment-pipeline">Automated CDK Deployment Pipeline</a></strong>
+  </td>
+  <td align="left">
+    CI/CD pipeline using GitHub Actions to test, validate, and deploy the CDK stack on every change, authenticating to AWS through a federated IAM identity instead of stored access keys.
+  </td>
+  <td align="left">
+    <code>AWS CDK</code> <code>GitHub Actions</code> <code>OIDC</code> <code>IAM</code> <code>CloudFormation</code> <code>CI/CD</code>
+  </td>
+</tr>
 </table>
 
 ---
