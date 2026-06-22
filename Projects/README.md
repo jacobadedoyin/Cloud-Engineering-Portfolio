@@ -38,7 +38,7 @@
   </tr>
   <tr>
     <td width="360" style="white-space: nowrap;">
-      🏛️ <strong><a href="enterprise-architecture-solutions">Enterprise&nbsp;Security&nbsp;Architecture</a></strong>
+      🏛️ <strong><a href="enterprise-architecture-solutions">Identity&nbsp;&amp;&nbsp;Access&nbsp;Governance</a></strong>
     </td>
     <td>
       Financial services access governance, MFA deployment and operations, secure file transfer governance, vulnerability and risk management, and BI platform access governance across regulated enterprise environments.
