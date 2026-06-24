@@ -36,17 +36,6 @@ All three projects are live deployments on a personal Azure subscription with fu
       <code>Bicep</code> <code>Azure CLI</code> <code>NSG</code> <code>Log Analytics</code> <code>GitHub Actions</code> <code>Resource Locks</code> <code>Key Vault</code> <code>RBAC</code>
     </td>
   </tr>
-  <tr>
-    <td align="left" width="320">
-      📊 <strong><a href="monitoring-operations-and-service-visibility">Monitoring, Operations and Service Visibility</a></strong>
-    </td>
-    <td align="left">
-      End-to-end monitoring stack built from scratch on a personal Azure subscription. Azure Monitor Agent deployed across a VM estate, Data Collection Rules and Endpoints configured for telemetry ingestion, KQL queries written for heartbeat monitoring and performance analysis, operational visibility delivered via Azure Workbooks, and security posture tracked via Defender for Cloud.
-    </td>
-    <td align="left">
-      <code>Azure Monitor</code> <code>AMA</code> <code>DCR</code> <code>DCE</code> <code>KQL</code> <code>Log Analytics</code> <code>Workbooks</code> <code>Defender for Cloud</code>
-    </td>
-  </tr>
 </table>
 
 ---
