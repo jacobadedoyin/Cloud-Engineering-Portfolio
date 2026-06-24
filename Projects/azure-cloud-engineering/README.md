@@ -38,17 +38,6 @@ All three projects are live deployments on a personal Azure subscription with fu
   </tr>
   <tr>
     <td align="left" width="320">
-      🌐 <strong><a href="hub-spoke-network-architecture">Hub-Spoke Network Architecture</a></strong>
-    </td>
-    <td align="left">
-      Hub-spoke VNet topology with peered spoke networks, NSG rules enforced on each subnet, private DNS zone, and a private endpoint locking the storage account off the public internet. Managed Identity assigned to spoke VM with Key Vault Secrets User role for credential-free secret retrieval. Deployed via Bicep and GitHub Actions pipeline.
-    </td>
-    <td align="left">
-      <code>VNet</code> <code>VNet Peering</code> <code>NSG</code> <code>Private Endpoints</code> <code>Private DNS</code> <code>Managed Identity</code> <code>Key Vault</code> <code>Bicep</code> <code>GitHub Actions</code>
-    </td>
-  </tr>
-  <tr>
-    <td align="left" width="320">
       📊 <strong><a href="monitoring-operations-and-service-visibility">Monitoring, Operations and Service Visibility</a></strong>
     </td>
     <td align="left">
